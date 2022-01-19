@@ -141,8 +141,9 @@ Documents
 - Update
   - `db.collection.update({record to update}, {$set: {update content}})
   - Example
-    - `db.DisneyFriends.update({"name": "MIny"}, {$set: {"name": "Miny"}})`
-
+        
+        > `db.DisneyFriends.update({"name": "MIny"}, {$set: {"name": "Miny"}})`
+        WriteResult({ "nMatched" : 0, "nUpserted" : 0, "nModified" : 0 })
 
 - Remove
   - `db.collection.remove(ObjectId("--"))`
